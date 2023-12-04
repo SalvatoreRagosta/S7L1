@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/script.js"></script>
+    <title>S7L1</title>
+</head>
+<body>
+    <h1>ESERCIZIO S7L1</h1>
+
+    <h2>Crea un nuovo animale domestico</h2>
+    
+    <form id="petForm">
+        <label for="petName">Nome dell'animale:</label>
+        <input type="text" id="petName" required>
+
+        <label for="ownerName">Nome del proprietario:</label>
+        <input type="text" id="ownerName" required>
+
+        <label for="species">Specie:</label>
+        <input type="text" id="species" required>
+
+        <label for="breed">Razza:</label>
+        <input type="text" id="breed" required>
+
+        <button type="button" onclick="creaPet()">Aggiungi Pet</button>
+    </form>
+
+    <h2>Lista degli animali domestici</h2>
+    <ul id="petList"></ul>
+    
+</body>
+</html>
+
